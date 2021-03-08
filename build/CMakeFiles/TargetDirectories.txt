@@ -1,0 +1,3 @@
+C:/Users/LG/OneDrive/문서/work/cg/cmake_project_example/build/CMakeFiles/cmake_project_example.dir
+C:/Users/LG/OneDrive/문서/work/cg/cmake_project_example/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LG/OneDrive/문서/work/cg/cmake_project_example/build/CMakeFiles/ZERO_CHECK.dir

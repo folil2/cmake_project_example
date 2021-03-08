@@ -1,0 +1,10 @@
+^C:\USERS\LG\ONEDRIVE\문서\WORK\CG\CMAKE_PROJECT_EXAMPLE\BUILD\CMAKEFILES\E7248860BB5F0D28C99641A312C4E3C9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LG/OneDrive/문서/work/cg/cmake_project_example -BC:/Users/LG/OneDrive/문서/work/cg/cmake_project_example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LG/OneDrive/문서/work/cg/cmake_project_example/build/cmake_project_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
